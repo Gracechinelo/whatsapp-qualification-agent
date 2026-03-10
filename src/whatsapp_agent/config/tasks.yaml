@@ -1,0 +1,9 @@
+create_reply_task:
+  description: >
+    Read the following incoming WhatsApp message from a prospect: "{incoming_message}". 
+    Draft a short, natural-sounding WhatsApp reply. If they just said "Hello", greet them 
+    and ask how you can help. If they asked about a specific property, acknowledge it and gently ask 
+    for their budget or preferred location.
+  expected_output: >
+    A short, friendly, and professional WhatsApp text message reply ready to be sent back to the prospect.
+  agent: qualifier_agent
